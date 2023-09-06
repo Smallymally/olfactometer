@@ -1,0 +1,10 @@
+#calibrate 4 channels + 13 to 3L/min 
+
+
+import serial
+import time
+
+ser = serial.Serial('com4')
+ser.boudrate = 9600
+ser.flush()
+
