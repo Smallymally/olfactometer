@@ -1,0 +1,38 @@
+#In this experiment we have two samples (vodka and whisky) at 40% abv at two volumes (5 drops eq. 0.03ml and 10ml) 
+# Pre: Calibrate channels 1, 2, 3, 4 and 13 to 3L/min then set up for panellist 
+# Post: run clean for channels 1:4
+
+# open channel 13 for 5s (intitial time before onset)  
+# open channel 1 for 2s (odor 1)
+# open channel 13 for 20s (ISI)
+# open channel 2 for 2s (odor 2)
+# open channel 13 for 20s (ISI)
+# open channel 3 for 2s (odor 3)
+# open channel 13 for 20s (ISI)
+# open channel 4 for 2s (odor 4)
+# open channel 13 for 20s (time for carryover at end of experiment) 
+
+ser.write(b'setchannel 13\r') 
+ser.write(b'openvalvetimed 5000') 
+ser.write(b'setchannel 1\r') 
+ser.write(b'openvalvetimed 2000') 
+ser.write(b'setchannel 13\r')
+ser.write(b'openvalvetimed 20000') 
+ser.write(b'setchannel 2\r') 
+ser.write(b'openvalvetimed 2000') 
+ser.write(b'setchannel 13\r')
+ser.write(b'openvalvetimed 20000') 
+ser.write(b'setchannel 3\r') 
+ser.write(b'openvalvetimed 2000') 
+ser.write(b'setchannel 13\r')
+ser.write(b'openvalvetimed 20000') 
+ser.write(b'setchannel 4\r') 
+ser.write(b'openvalvetimed 2000') 
+ser.write(b'setchannel 13\r')
+ser.write(b'openvalvetimed 20000') 
+
+
+
+
+
+
