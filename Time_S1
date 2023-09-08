@@ -1,3 +1,33 @@
-# Determine sufficient odor delivery time period
+# Determine sufficient odor delivery time period whilst doing a sensory test 
 
-# with a highly perceivable odorant in channel 1 open it for different time periods  
+# with highly perceivable odorants in channel 1 and 2 open them for different time periods  
+
+
+                                                       # do I need to add pauses or will it run sequentially?  
+
+setchannel 13 # no odorant for 5 sec 
+setvalveopentimed 5000
+setchannel 1 # begin experiment
+setvalveopentimed 2000
+setchannel 13
+setvalveopentimed 20000
+setchannel 2
+setvalveopentimed 2000
+setchannel 13 
+setvalveopentimed 20000
+setchannel 1
+setvalveopentimed 2000
+setchannel 13 
+setvalveopentimed 20000
+setchannel 2
+setvalveopentimed 2000
+setchannel 13 
+setvalveopentimed 20000
+setchannel 2
+setvalveopentimed 2000
+setchannel 13 
+setvalveopentimed 20000
+setchannel 1
+setvalveopentimed 2000
+setchannel 13 
+setvalveopentimed 20000
