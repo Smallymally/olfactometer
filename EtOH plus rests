@@ -1,0 +1,22 @@
+# Arduino commands for abv, volume and flow experiments 
+# 3x abv, 3x volume 3x flow rates:1, 2 and 3 L/min with intermittent clean air  
+
+# set channels 0:9 and 13 to 3 L/min
+setflow 0:1;1:1;2:1;3:1;4:1;5:1;6:1;7:1;8:1;9:1;13:1;
+
+# set channel 13 as Clean air and open it  
+setCAchannel 13 
+setvalve 1
+
+# sequentially open channels 1 to 9 for 5 seconds. CA channel closes when they open and opens when they close 
+setchannel 1
+CaOffOpenValveTimed 5000
+
+# set channels 0:9 and 13 to 2 L/min
+setflow 0:2;1:2;2:2;3:2;4:2;5:2;6:2;7:2;8:2;9:2;13:2;
+
+
+# set channels 0:9 and 13 to 3 L/min
+setflow 0:3;1:3;2:3;3:3;4:3;5:3;6:3;7:3;8:3;9:3;13:3;
+
+
