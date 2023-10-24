@@ -1,0 +1,150 @@
+parameters:
+  port: "com3"
+  constant_flow_channel_id: 0
+  constant_flow_rate: 1
+  calibration: no
+
+Ch1R1:
+   seconds: 5
+   channels:
+     1: 1      
+Ch1R2:
+   seconds: 5
+   channels:
+     1: 1      
+rest1:
+   seconds: 20
+   channels:
+     13: 1
+Ch2R1:
+   seconds: 5
+   channels:
+     2: 1   
+Ch2R2:
+   seconds: 5
+   channels:
+     2: 1 
+rest2:
+   seconds: 20
+   channels:
+     13: 1
+Ch3R1:
+   seconds: 5
+   channels:
+     3: 1
+Ch3R2:
+   seconds: 5
+   channels:
+     3: 1  
+rest3:
+   seconds: 20
+   channels:
+     13: 1
+Ch4R1:
+   seconds: 5
+   channels:
+     4: 1      
+Ch4R2:
+   seconds: 5
+   channels:
+     4: 1 
+rest4:
+   seconds: 20
+   channels:
+     13: 1     
+Ch5R1:
+   seconds: 5
+   channels:
+     5: 1
+Ch5R2:
+   seconds: 5
+   channels:
+     5: 1
+rest5:
+   seconds: 20
+   channels:
+     13: 1          
+Ch6R1:
+   seconds: 5
+   channels:
+     6: 1
+Ch6R2:
+   seconds: 5
+   channels:
+     6: 1 
+rest6:
+   seconds: 20
+   channels:
+     13: 1          
+Ch7R1:
+   seconds: 5
+   channels:
+     7: 1      
+Ch7R2:
+   seconds: 5
+   channels:
+     7: 1  
+rest7:
+   seconds: 20
+   channels:
+     13: 1     
+Ch8R1:
+   seconds: 5
+   channels:
+     8: 1   
+Ch8R2:
+   seconds: 5
+   channels:
+     8: 1
+rest8:
+   seconds: 20
+   channels:
+     13: 1          
+Ch9R1:
+   seconds: 5
+   channels:
+     9: 1
+Ch9R2:
+   seconds: 5
+   channels:
+     9: 1
+rest9:
+   seconds: 20
+   channels:
+     13: 1          
+Ch10R1:
+   seconds: 5
+   channels:
+     10: 1      
+Ch10R2:
+   seconds: 5
+   channels:
+     10: 1  
+rest10:
+   seconds: 20
+   channels:
+     13: 1     
+Ch11R1:
+   seconds: 5
+   channels:
+     11: 1   
+Ch11R2:
+   seconds: 5
+   channels:
+     11: 1
+rest11:
+   seconds: 20
+   channels:
+     13: 1          
+Ch12R1:
+   seconds: 5
+   channels:
+     12: 1
+Ch12R2:
+   seconds: 5
+   channels:
+     12: 1  
+rest12:
+   seconds: 20
+   channels:
+     13: 1     
