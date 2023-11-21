@@ -100,7 +100,7 @@ def run_expt(yml,ser, constant_flow_rate, constant_flow_id, calibration):
           if (yml[key]["channels"][channel]==0):
              continue
           channels_lst.append(channel)
-       cmd_str="openmultivalvetimed "+str(time_ms)+" "+";".join(map(str,channels_lst))
+       cmd_str="CfOffOpenValveTimed "+str(time_ms)+" "+";".join(map(str,channels_lst))
        ser_exec(ser,cmd_str)
       
        # 2.2) Once all commands are submitted, wait for the execution time + 10 seconds to catch up. 
