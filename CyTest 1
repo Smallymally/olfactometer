@@ -2,8 +2,8 @@ parameters:
   port: "/dev/cu.usbmodem14101"
   constant_flow_channel_id: 0
   constant_flow_rate: 2
-  calibration: yes 
-  run: no
+  calibration: no 
+  run: yes
   max_flow: 6
   pause: 1
   
