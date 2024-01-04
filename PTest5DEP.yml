@@ -1,0 +1,47 @@
+parameters:
+  port: "com4"
+  constant_flow_channel_id: 0
+  constant_flow_rate: 1
+  constant_flow_enabled: no
+  calibration: no 
+  run: yes
+  max_flow: 6
+  pause: 1 
+  
+
+
+Dep1:
+   seconds: 240
+   channels:
+     1: 1    
+     2: 1
+Dep2:
+   seconds: 240
+   channels:
+     3: 1    
+     4: 1
+Dep3:
+   seconds: 240
+   channels:
+     5: 1    
+     6: 1
+Dep4:
+   seconds: 240
+   channels:
+     7: 1    
+     8: 1
+Dep5:
+   seconds: 240
+   channels:
+     9: 1    
+     10: 1
+Dep6:
+   seconds: 240
+   channels:
+     11: 1    
+     12: 1
+Dep7:
+   seconds: 240
+   channels:
+     1: 1    
+     2: 1
