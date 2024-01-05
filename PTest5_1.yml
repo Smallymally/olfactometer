@@ -81,9 +81,34 @@ Ch6R2:
    seconds: 10
    channels:
      6: 1 
-    
+Clean6:
+   seconds: 20
+   channels:
+     13: 1   
+     
+Ch8R1:
+   seconds: 10
+   channels:
+     8: 1 
+Ch8R2:
+   seconds: 10
+   channels:
+     8: 1 
+Clean7:
+   seconds: 20
+   channels:
+     13: 1    
 
-Dep2:
+Ch4R1:
+   seconds: 10
+   channels:
+     4: 1 
+Ch4R2:
+   seconds: 10
+   channels:
+     4: 1 
+    
+Dep4:
    seconds: 210
    channels:
      1: 1 
@@ -91,7 +116,7 @@ Dep2:
      3: 1 
      4: 1 
 
-Clean6:
+Clean8:
    seconds: 20
    channels:
      13: 1 
