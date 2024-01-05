@@ -17,60 +17,98 @@ Ch5R2:
    seconds: 10
    channels:
      5: 1
-Ch5R3:
-   seconds: 10
-   channels:
-     5: 1   
 Clean1:
    seconds: 20
    channels:
-     13: 1   
-Ch3R1:
+     13: 1
+     
+Ch9R1:
    seconds: 10
    channels:
-     3: 1      
-Ch3R2:
+     9: 1      
+Ch9R2:
    seconds: 10
    channels:
-     3: 1
-Ch3R3:
-   seconds: 10
-   channels:
-     3: 1      
+     9: 1     
 Clean2:
    seconds: 20
    channels:
-     13: 1   
-Ch6R1:
+     13: 1
+     
+Ch11R1:
    seconds: 10
    channels:
-     6: 1      
-Ch6R2:
+     11: 1      
+Ch11R2:
    seconds: 10
    channels:
-     6: 1
-Ch6R3:
-   seconds: 10
-   channels:
-     6: 1        
+     11: 1     
 Clean3:
    seconds: 20
    channels:
-     13: 1   
-Ch4R1:
-   seconds: 10
-   channels:
-     4: 1 
-Ch4R2:
-   seconds: 10
-   channels:
-     4: 1 
-Ch4R3:
-   seconds: 10
-   channels:
-     4: 1 
+     13: 1
      
+Ch7R1:
+   seconds: 10
+   channels:
+     7: 1 
+Ch7R2:
+   seconds: 10
+   channels:
+     7: 1 
 Clean4:
    seconds: 20
    channels:
-     13: 1   
+     13: 1
+     
+Ch6R1:
+   seconds: 10
+   channels:
+     6: 1 
+Ch6R2:
+   seconds: 10
+   channels:
+     6: 1 
+Clean5:
+   seconds: 20
+   channels:
+     13: 1
+     
+Ch10R1:
+   seconds: 10
+   channels:
+     10: 1 
+Ch10R2:
+   seconds: 10
+   channels:
+     10: 1 
+Clean6:
+   seconds: 20
+   channels:
+     13: 1     
+
+Ch12R1:
+   seconds: 10
+   channels:
+     12: 1 
+Ch12R2:
+   seconds: 10
+   channels:
+     12: 1 
+Clean7:
+   seconds: 20
+   channels:
+     13: 1
+
+Ch8R1:
+   seconds: 10
+   channels:
+     8: 1 
+Ch8R2:
+   seconds: 10
+   channels:
+     8: 1 
+Clean8:
+   seconds: 20
+   channels:
+     13: 1
