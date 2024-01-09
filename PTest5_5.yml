@@ -1,0 +1,125 @@
+parameters:
+  port: "com4"
+  constant_flow_channel_id: 0
+  constant_flow_rate: 1
+  constant_flow_enabled: no
+  calibration: no 
+  run: yes
+  max_flow: 6
+  pause: 1 
+
+   
+Ch9R1:
+   seconds: 10
+   channels:
+     9: 1      
+Ch9R2:
+   seconds: 10
+   channels:
+     9: 1 
+Clean1:
+   seconds: 20
+   channels:
+     13: 1
+     
+ 
+Ch5R1:
+   seconds: 10
+   channels:
+     5: 1      
+Ch5R2:
+   seconds: 10
+   channels:
+     5: 1     
+Clean2:
+   seconds: 20
+   channels:
+     13: 1
+     
+Ch7R1:
+   seconds: 10
+   channels:
+     7: 1 
+Ch7R2:
+   seconds: 10
+   channels:
+     7: 1 
+Clean3:
+   seconds: 20
+   channels:
+     13: 1
+     
+Ch11R1:
+   seconds: 10
+   channels:
+     11: 1      
+Ch11R2:
+   seconds: 10
+   channels:
+     11: 1     
+Clean4:
+   seconds: 20
+   channels:
+     13: 1
+     
+Ch10R1:
+   seconds: 10
+   channels:
+     10: 1 
+Ch10R2:
+   seconds: 10
+   channels:
+     10: 1 
+Clean5:
+   seconds: 20
+   channels:
+     13: 1
+
+Ch6R1:
+   seconds: 10
+   channels:
+     6: 1 
+Ch6R2:
+   seconds: 10
+   channels:
+     6: 1 
+Clean6:
+   seconds: 20
+   channels:
+     13: 1     
+
+
+Ch8R1:
+   seconds: 10
+   channels:
+     8: 1 
+Ch8R2:
+   seconds: 10
+   channels:
+     8: 1 
+Clean7:
+   seconds: 20
+   channels:
+     13: 1
+
+Ch12R1:
+   seconds: 10
+   channels:
+     12: 1 
+Ch12R2:
+   seconds: 10
+   channels:
+     12: 1 
+
+Dep2:
+   seconds: 210
+   channels:
+     9: 1
+     10: 1
+     11: 1
+     12: 1
+
+Clean8:
+   seconds: 20
+   channels:
+     13: 1
