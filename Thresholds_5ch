@@ -1,0 +1,66 @@
+parameters:
+  port: "com4"
+  constant_flow_channel_id: 0
+  constant_flow_rate: 1
+  constant_flow_enabled: no
+  calibration: no 
+  run: yes
+  max_flow: 6
+  pause: 1   
+
+D5:
+   seconds: 10
+   channels:
+     5: 1      
+Clean1:
+   seconds: 20
+   channels:
+     13: 1  
+D4:
+   seconds: 10
+   channels:
+     4: 1  
+Clean2:
+   seconds: 20
+   channels:
+     13: 1  
+B1:
+   seconds: 20
+   channels:
+     6: 1  
+Clean3:
+   seconds: 20
+   channels:
+     13: 1  
+D3:
+   seconds: 20
+   channels:
+     3: 1  
+Clean4:
+   seconds: 20
+   channels:
+     13: 1  
+D2:
+   seconds: 20
+   channels:
+     2: 1  
+Clean5:
+   seconds: 20
+   channels:
+     13: 1  
+B2:
+   seconds: 20
+   channels:
+     7: 1  
+Clean6:
+   seconds: 20
+   channels:
+     13: 1  
+D1:
+   seconds: 20
+   channels:
+     1: 1  
+Clean7:
+   seconds: 20
+   channels:
+     13: 1  
