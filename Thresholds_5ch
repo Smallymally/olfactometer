@@ -8,59 +8,67 @@ parameters:
   max_flow: 6
   pause: 1   
 
-D5:
-   seconds: 10
-   channels:
-     5: 1      
-Clean1:
-   seconds: 20
+PreClean:
+   seconds: 90
    channels:
      13: 1  
-D4:
+EtOH:
    seconds: 10
    channels:
-     4: 1  
+     8: 1      
+Clean1:
+   seconds: 90
+   channels:
+     13: 1  
+D10:
+   seconds: 10
+   channels:
+     5: 1  
 Clean2:
-   seconds: 20
+   seconds: 90
    channels:
      13: 1  
 B1:
-   seconds: 20
+   seconds: 10
    channels:
      6: 1  
 Clean3:
-   seconds: 20
+   seconds: 90
    channels:
      13: 1  
-D3:
-   seconds: 20
+D9:
+   seconds: 10
+   channels:
+     4: 1  
+Clean4:
+   seconds: 90
+   channels:
+     13: 1  
+D8:
+   seconds: 10
    channels:
      3: 1  
-Clean4:
-   seconds: 20
-   channels:
-     13: 1  
-D2:
-   seconds: 20
-   channels:
-     2: 1  
 Clean5:
-   seconds: 20
+   seconds: 90
    channels:
      13: 1  
 B2:
-   seconds: 20
+   seconds: 10
    channels:
      7: 1  
 Clean6:
-   seconds: 20
+   seconds: 90
    channels:
      13: 1  
-D1:
-   seconds: 20
+D7:
+   seconds: 10
+   channels:
+     2: 1  
+Clean7:
+   seconds: 90
+   channels:
+     13: 1  
+D6:
+   seconds: 10
    channels:
      1: 1  
-Clean7:
-   seconds: 20
-   channels:
-     13: 1  
